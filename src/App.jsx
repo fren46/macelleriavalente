@@ -17,6 +17,7 @@ const GOOGLE_MAPS_URL =
 const GOOGLE_REVIEWS_URL = "https://g.page/r/CQg-zrCJ9YAHEAE/review";
 const IG_URL = "https://www.instagram.com/macelleriavalentevincenzo/";
 const FB_URL = "https://www.facebook.com/macelleriavalentevincenzo";
+const base_path = "macelleriavalente.github.io"
 
 const HOURS = [
   { day: "Lunedì", hours: "08:00–13:30, 16:00–21:00" },
@@ -100,7 +101,7 @@ export default function App() {
           className="w-full max-w-md sm:max-w-lg md:max-w-xl mx-auto px-4 pt-12 pb-8 text-center"
         >
           <div className="mx-auto grid place-items-center">
-            <img src="LOGO_completo_color2.png" alt="Logo macelleria" className="h-80 object-contain" />
+            <img src={`/${base_path}/LOGO_completo_color2.png`} alt="Logo macelleria" className="h-80 object-contain" />
           </div>
           {/*<h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#3c3c3b]">
             {SHOP_NAME}
