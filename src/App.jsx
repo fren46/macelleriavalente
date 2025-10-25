@@ -10,13 +10,14 @@ import { Phone, MessageCircle, Instagram, Facebook, MapPin, Clock, Share2, Copy,
 // === DATI REALI ===
 const SHOP_NAME = "Macelleria Valente Vincenzo";
 const PHONE_E164 = "+390804968904";
-const WHATSAPP_E164 = "+39333111222";
+const WHATSAPP_E164 = "+390804968904";
 const ADDRESS = "Via Carlo Poerio, 29/d, 70013 Castellana Grotte BA";
 const GOOGLE_MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=Macelleria+Valente+Vincenzo+Castellana+Grotte";
 const GOOGLE_REVIEWS_URL = "https://g.page/r/CQg-zrCJ9YAHEAE/review";
 const IG_URL = "https://www.instagram.com/macelleriavalentevincenzo/";
 const FB_URL = "https://www.facebook.com/macelleriavalentevincenzo";
+
 const base_path = "macelleriavalente.github.io"
 
 const HOURS = [
