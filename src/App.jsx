@@ -18,7 +18,7 @@ const GOOGLE_REVIEWS_URL = "https://g.page/r/CQg-zrCJ9YAHEAE/review";
 const IG_URL = "https://www.instagram.com/macelleriavalentevincenzo/";
 const FB_URL = "https://www.facebook.com/macelleriavalentevincenzo";
 
-const base_path = "macelleriavalente"
+const base_path = ""
 
 const HOURS = [
   { day: "Lunedì", hours: "08:00–13:30, 16:00–21:00" },
