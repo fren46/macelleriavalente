@@ -102,7 +102,7 @@ export default function App() {
           className="w-full max-w-md sm:max-w-lg md:max-w-xl mx-auto px-4 pt-12 pb-8 text-center"
         >
           <div className="mx-auto grid place-items-center">
-            <img src={`/${base_path}/LOGO_completo_color2.png`} alt="Logo macelleria" className="h-80 object-contain" />
+            <img src={`${base_path}/LOGO_completo_color2.png`} alt="Logo macelleria" className="h-80 object-contain" />
           </div>
           {/*<h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#3c3c3b]">
             {SHOP_NAME}
